@@ -1,0 +1,179 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: black;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+}
+.menu{
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  text-align: left;
+  font-family: 'Syne', sans-serif;
+}
+#logo{
+  font-family: 'Work Sans', sans-serif;
+}
+img.img-size{
+  width: 50%;
+  height: auto;
+}
+.img-size-logo{
+  width: 75%;
+  height: auto;
+}
+#logo, .menu a, .body, .be{
+  color: white;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: list-item;
+  padding: 3px;
+  margin-left: 13px;
+  font-family: 'Mukta', sans-serif;
+}
+.menu a:hover{
+  color: green;
+  cursor: ne-resize;
+}
+.body{
+  width: 1100px;
+  margin-top: 1%;
+  margin-left: 21.5%;
+  margin-right: auto;
+  font-family: 'Work Sans', sans-serif;
+/*  font-family: 'Comic Neue', cursive; */
+}
+.title{
+  text-align: left;
+}
+.title-margin{
+  margin-top: 150px;
+}
+.body p{
+  font-size: 20px;
+}
+.be{
+  text-decoration: none;
+}
+.bereal{
+  width: 24%;
+  height: auto;
+}
+.work{
+  text-align: left;
+  margin-top: 20px;
+}
+.ucsd, .spaces, .major, .dance, .contact{
+  text-decoration: none;
+  color: white;
+}
+.contact{
+  float:left;
+  font-size: 40px;
+}
+.contact:hover {
+  color: gray;
+}
+.ucsd:hover{
+  color: gold;
+}
+.spaces:hover{
+  color: mediumseagreen;
+}
+.major:hover{
+  color: cornflowerblue;
+}
+.dance:hover{
+  color: #B39D77;
+}
+.num{
+  text-align: left;
+}
+
+
+.ini-look{
+  width: 500px;
+  height: auto;
+  float: right;
+  margin-right: 100px;
+}
+.ini-look-large{
+  width: 600px;
+  height: auto;
+  float: right;
+  margin-right: 100px;
+}
+.ini-look-xl{
+  width: 700px;
+  height: auto;
+  float: right;
+  margin-right: 100px;
+}
+
+.ini-look-small{
+  width: 450px;
+  height: auto;
+  float: right;
+  margin-right: 175px;
+}
+.ini-look-mini{
+  width: 300px;
+  height: auto;
+  float: right;
+  margin-right: 175px;
+}
+.piece-main{
+  padding: 50px;
+}
+.not-one{
+  margin-top: 250px;
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding: 1%;
+}
+.misc-pic{
+  padding: 1%;
+  width:300px;
+  height: auto;
+}
+.med{
+  width: 30%;
+}
+.large-pic{
+  width: 40%;
+}
+.p-pad{
+  padding: 10px;
+}
+.p-pad:hover{
+  color: crimson;
+}
+.down{
+  margin-top: 40px;
+}
+/* body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: orange;
+}
+body::-webkit-scrollbar-thumb{
+  background: purple;
+} */
